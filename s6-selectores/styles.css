@@ -5,15 +5,92 @@
 /* Selector universal */
 *{
     font-family: verdana, arial, helvetica;
+    background: darkgray;
 }
 
 /* Selector etiqueta */
-
+h1{
+    background: antiquewhite;
+    color: darksalmon;
+    padding: 20px;
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
+footer a{
+    color: blueviolet;
+}
 
 /* Selector id */
-
+#descripcion, #titulo2{
+    border: 1px solid green;
+    padding: 20px;
+    background: #f0f8ff;
+}
+#titulo{
+    background: brown;
+    border: 10px dashed white;
+}
 
 /* Selector clase */
-
+.parrafo{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.parrafo1, .parrafo3{
+    background-color: khaki;
+    color: red;
+    padding: 25px;
+}
+.parrafo3{
+    background-color: orange;
+}
 
 /* Selector atributo */
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding:20px;
+}
+#usuario form *{
+    display: block;
+}
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 20%;
+}
+input[type="submit"]{
+    background: dodgerblue;
+    color: green;
+    padding: 20px;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px dashed red;
+    cursor: pointer;
+}
+
+/* Selector hijo */
+#menu > li > a{
+    color: lightseagreen;
+    text-decoration: underline;
+}
+
+/* Prioridad */
+/*
+    *De menor a mayor prioridad:
+1.Entre más abajo esté la regla, mayor prioridad
+2.Entre más específico el selector mayor prioridad
+3.Colocar el !important hace que ese atributo predomine en todos lados
+*/
+#prioridad h1{
+    background: red;
+}
+
+h1{
+    background:purple !important;
+}
