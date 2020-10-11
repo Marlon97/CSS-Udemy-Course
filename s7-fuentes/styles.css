@@ -1,0 +1,20 @@
+@font-face {
+    font-family: ChilankaFontCustom;
+    src: url(fonts/Chilanka/Chilanka-Regular.ttf);
+}
+
+h1{
+    font-family: 'Mansalva', cursive;
+    font-style: italic;
+    font-transform: uppercase;
+    font-size: 55px;
+}
+h3{
+    font-family: ChilankaFontCustom, "arial";
+    font-weight: lighter;
+}
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
