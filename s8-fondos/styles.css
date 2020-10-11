@@ -1,0 +1,43 @@
+body{
+    background-color: #cccccc;
+
+    /*background-image: url(img/wall2.jpg);
+    /*Podemos indicar si se repite en x, y o no se repita el fondo*/
+    /*background-repeat: no-repeat;
+    /* si le ponemos 100% 100% se adapta en X y Y al 100% */
+    /*background-size: 100% 100%;
+    /*El fondo se queda fijo*/
+    /*background-attachment: fixed;
+    /*Indicamos una posicion en la imagen que se mostrará*/
+    /*
+    background-position: left bottom;
+    */
+    color: Black;
+    font-size: 20px;
+    text-indent: 25px;
+}
+
+#caja{
+    border: 10px solid black;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-family: "Open Sans";
+    text-align: center;
+    /*Tamaño de la linea (ayuda a separarlas) */
+    line-height: 50px;
+    text-transform: uppercase;
+    text-decoration: overline underline line-through;
+    /*vertical-align: top;*/
+}
+
+#spacing{
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+h2{
+    color: red;
+    background-color: white;
+    border: 5px solid red;
+}
