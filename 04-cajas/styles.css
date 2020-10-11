@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caja1, #caja2{
+    width: 500px;
+    height: 200px;
+    background-color:lightblue;
+    border: 10px solid red;
+    /* Arriba Derecha Abajo Izquierda */
+    /*margin: 15px 15px 15px 15px;*/
+    margin: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+    margin-right: 40px;
+    /* Arriba Derecha Abajo Izquierda */
+    /*padding: 15px 15px 15px 15px;*/
+    padding: 20px;
+}
+
+p{
+    font-size: 30px;
+    line-height: 200px;
+}
